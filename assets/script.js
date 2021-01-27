@@ -6,9 +6,13 @@ var savBtns = $(".saveBtn")
 var listItems = JSON.parse(localStorage.getItem("listItems") || "[]");
 
 // add current date to page
-var currentDate = moment().format("MMMM Do YYYY");
+var currentDate = moment().format("MMMM DD, YYYY");
 $("#currentDay").text(currentDate);
 console.log(currentDate);
+
+// current hours for past/present/future
+var currentTime = moment().hour();
+console.log(currentTime);
 
 // time blocks color coded to indicate past, present, future
 
