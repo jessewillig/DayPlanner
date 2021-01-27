@@ -14,6 +14,11 @@ console.log(currentDate);
 var currentTime = moment().hour();
 console.log(currentTime);
 
+// testing 1st button
+$("#saveBtn1").on("click", function(){
+    console.log("clicked");
+});
+
 // time blocks color coded to indicate past, present, future
 
 // save events to local storage
