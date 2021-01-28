@@ -41,5 +41,14 @@ savBtns.on("click", function () {
 
     // local storage
     localStorage.setItem("listItems", JSON.stringify(listItems));
-    
-})
+    $("#hour1 .text-input").val(localStorage.getItem("hour1"));
+    $("#hour2 .text-input").val(localStorage.getItem("hour1"));
+    $("#hour3 .text-input").val(localStorage.getItem("hour1"));
+    $("#hour4 .text-input").val(localStorage.getItem("hour1"));
+    $("#hour5 .text-input").val(localStorage.getItem("hour1"));
+    $("#hour6 .text-input").val(localStorage.getItem("hour1"));
+    $("#hour7 .text-input").val(localStorage.getItem("hour1"));
+    $("#hour8 .text-input").val(localStorage.getItem("hour1"));
+    $("#hour9 .text-input").val(localStorage.getItem("hour1"));
+    $("#hour10 .text-input").val(localStorage.getItem("hour1"));
+});
