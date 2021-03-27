@@ -1,4 +1,4 @@
-# hw5-DayPlanner
+# DayPlanner
 
 ## Description
 No one enjoys missing meetings or lunch engagements however when you get working, sometimes you forget what the day has planned! This was made so you can organize your workday easily and know what's going on and when!
